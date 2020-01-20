@@ -51,7 +51,10 @@ If you rate your familiarity with R as "low" please go to [Data Carpentry: R for
   ii) The audience of this workflow is akin to someone who might be reviewing a manuscript derived from the work. The **most important audience is yourself, six months later**, or your close collaborators (e.g., lab group) who may need to carry on the work after you move on.  
   iii) Whether you like it or not, you are a computational biologist. Lab biology experiments need to be reproducible. Computational biology analyses need to be reproducible.  
 2. R markdown and workflowr  
-  i) R markdown language. It allows you to mingle script with formatted text, with script outputs.  Note that Python and c++ scripts can be incorporated into R markdown.  
+  i) R markdown language. It allows you to mingle script with formatted text, with script outputs.  Note that Python and c++ scripts can be incorporated into R markdown. Help pages on rmarkdown:  
+[Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)  
+[Authoring Basics](https://rmarkdown.rstudio.com/authoring_basics.html)  
+[In Literate Programming](https://annakrystalli.me/rrresearch/05_literate-prog.html)  
   ii) `workflowr` aims to make it easier to follow a coding workflow that will increase the communicability and reproducibility of your code, and constrain you somewhat to following that workflow. The package sets up a standard directory file structure and populates it with useful initial R markdown (.Rmd) files.  
   iii) `workflowr` also sets up the directory as a git version control repository. We will (probably) not teach git, but we encourage you all delving into it. Assume for the purpose of this class that you can use `workflowr` just to set up the file structure.
 ![Standard script directory organization](../data/FileStructure.jpg)  
@@ -59,7 +62,9 @@ There [is more](https://cran.r-project.org/web/packages/workflowr/vignettes/wflo
 3. AlphaSimR  
   i) AlphaSimR is a package to simulate breeding populations and tasks. It is not completely intuitive nor completely well-documented. We will get started with it here. It should help for future homework  
 4. Homework  
-  i) Labs, including this one, will be coupled with homework. One possibility for homework will be to do it in a `workflowr`-created directory, and hand in that zipped directory, or, if you go further and create a website out of it, just send in the URL...  
+  i) Labs, including this one, will be coupled with homework. One possibility for homework will be to do it in a `workflowr`-created directory, and hand in that zipped directory, or, if you go further and create a webpage out of it, just send in the URL... If all is well, this lab has a webpage here:  
+[Lab1 GitHub webpage](https://jeanlucj.github.io/Lab1_7170/Lab1_ProgrammingAlphaSimR.html)  
+I am noting, however, that on github.io, it is not rendering the within-directory-linked figures.  
 
 ## Document explanation
 There are three components to this document:
