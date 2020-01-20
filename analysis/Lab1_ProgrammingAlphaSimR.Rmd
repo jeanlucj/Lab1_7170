@@ -57,7 +57,7 @@ If you rate your familiarity with R as "low" please go to [Data Carpentry: R for
 [In Literate Programming](https://annakrystalli.me/rrresearch/05_literate-prog.html)  
   ii) `workflowr` aims to make it easier to follow a coding workflow that will increase the communicability and reproducibility of your code, and constrain you somewhat to following that workflow. The package sets up a standard directory file structure and populates it with useful initial R markdown (.Rmd) files.  
   iii) `workflowr` also sets up the directory as a git version control repository. We will (probably) not teach git, but we encourage you all delving into it. Assume for the purpose of this class that you can use `workflowr` just to set up the file structure.
-![Standard script directory organization](../data/FileStructure.jpg)  
+![Standard script directory organization](./FileStructure.jpg)  
 There [is more](https://cran.r-project.org/web/packages/workflowr/vignettes/wflow-01-getting-started.html) you can do with the package, and it's worth checking it out (and its extensive documentation!)  
 3. AlphaSimR  
   i) AlphaSimR is a package to simulate breeding populations and tasks. It is not completely intuitive nor completely well-documented. We will get started with it here. It should help for future homework  
@@ -144,7 +144,7 @@ The initial number of founders `nFounders` = `r nFounders`
 The number of chromosomes for the species is `nChr` = `r nChr`  
 Each chromosome has `segSites` = `r segSites` segregating sites  
 Each chromosome has `nQTL` = `r nQTL` QTL (i.e. segregating causal variants).  
-![The R markdown for that looks like this](../data/RcodeInDescription.jpg)
+![The R markdown for that looks like this](./RcodeInDescription.jpg)
 
 ## Parameters to README  
 This is starting to look **VERY** redundant, but it can't hurt to have the information in multiple places.  Chunks of code like this do not need to be included in the report.  To exclude them use the "include=FALSE" option in the chunk.
