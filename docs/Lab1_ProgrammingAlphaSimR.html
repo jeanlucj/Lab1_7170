@@ -506,10 +506,10 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjeanlucjLab17170treecb851516e6e309e7563b5e44db501f196ad33163targetblankcb85151a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jeanlucj/Lab1_7170/tree/cb851516e6e309e7563b5e44db501f196ad33163" target="_blank">cb85151</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjeanlucjLab17170tree9d95adde55e31a5804fe2f893de73e1dae128329targetblank9d95adda"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jeanlucj/Lab1_7170/tree/9d95adde55e31a5804fe2f893de73e1dae128329" target="_blank">9d95add</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomjeanlucjLab17170treecb851516e6e309e7563b5e44db501f196ad33163targetblankcb85151a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjeanlucjLab17170tree9d95adde55e31a5804fe2f893de73e1dae128329targetblank9d95adda" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility. The version displayed above was the version of the Git repository at the time these results were generated. <br><br> Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -558,6 +558,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/jeanlucj/Lab1_7170/blob/9d95adde55e31a5804fe2f893de73e1dae128329/analysis/Lab1_ProgrammingAlphaSimR.Rmd" target="_blank">9d95add</a>
+</td>
+<td>
+jeanlucj
+</td>
+<td>
+2020-01-20
+</td>
+<td>
+Touch ups on the main document
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/jeanlucj/Lab1_7170/602d7eb7d861d46218767fb5b678276a51545c4c/docs/Lab1_ProgrammingAlphaSimR.html" target="_blank">602d7eb</a>
+</td>
+<td>
+jeanlucj
+</td>
+<td>
+2020-01-20
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -620,7 +654,10 @@ pre code {
 </li>
 </ol>
 <ol style="list-style-type: lower-roman">
-<li>R markdown language. It allows you to mingle script with formatted text, with script outputs. Note that Python and c++ scripts can be incorporated into R markdown.<br />
+<li>R markdown language. It allows you to mingle script with formatted text, with script outputs. Note that Python and c++ scripts can be incorporated into R markdown. Help pages on rmarkdown:<br />
+<a href="https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">Cheat Sheet</a><br />
+<a href="https://rmarkdown.rstudio.com/authoring_basics.html">Authoring Basics</a><br />
+<a href="https://annakrystalli.me/rrresearch/05_literate-prog.html">In Literate Programming</a><br />
 </li>
 <li><code>workflowr</code> aims to make it easier to follow a coding workflow that will increase the communicability and reproducibility of your code, and constrain you somewhat to following that workflow. The package sets up a standard directory file structure and populates it with useful initial R markdown (.Rmd) files.<br />
 </li>
@@ -641,7 +678,9 @@ There <a href="https://cran.r-project.org/web/packages/workflowr/vignettes/wflow
 </li>
 </ol>
 <ol style="list-style-type: lower-roman">
-<li>Labs, including this one, will be coupled with homework. One possibility for homework will be to do it in a <code>workflowr</code>-created directory, and hand in that zipped directory, or, if you go further and create a website out of it, just send in the URL…</li>
+<li>Labs, including this one, will be coupled with homework. One possibility for homework will be to do it in a <code>workflowr</code>-created directory, and hand in that zipped directory, or, if you go further and create a webpage out of it, just send in the URL… If all is well, this lab has a webpage here:<br />
+<a href="https://jeanlucj.github.io/Lab1_7170/Lab1_ProgrammingAlphaSimR.html">Lab1 GitHub webpage</a><br />
+I am noting, however, that on github.io, it is not rendering the within-directory-linked figures.</li>
 </ol>
 </div>
 <div id="document-explanation" class="section level2">
@@ -774,7 +813,7 @@ str(founders)</code></pre>
   ..@ father : chr [1:100] &quot;0&quot; &quot;0&quot; &quot;0&quot; &quot;0&quot; ...
   ..@ gender : chr [1:100] &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
   ..@ nTraits: int 1
-  ..@ gv     : num [1:100, 1] -0.167 -0.324 -0.159 0.582 0.447 ...
+  ..@ gv     : num [1:100, 1] -0.918 1.018 0.176 0.517 0.25 ...
   ..@ pheno  : num [1:100, 1] NA NA NA NA NA NA NA NA NA NA ...
   ..@ ebv    : num[1:100, 0 ] 
   ..@ gxe    :List of 1
@@ -786,16 +825,16 @@ str(founders)</code></pre>
   ..@ ploidy : int 2
   ..@ nLoci  : int [1:10] 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
   ..@ geno   :List of 10
-  .. ..$ : raw [1:125, 1:2, 1:100] f8 3b 1d a0 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] d9 25 20 42 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] a4 a9 55 80 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 0f 31 72 40 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 40 40 30 d3 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 36 28 42 83 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 4d 68 bf f8 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 6a 26 e8 80 ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 06 5c 8c 5e ...
-  .. ..$ : raw [1:125, 1:2, 1:100] 1d 3a 28 d9 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 10 c2 38 6a ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 04 92 35 6f ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 78 b4 0b d0 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 10 0e 25 80 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 5a e2 61 b9 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] ca 03 64 00 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 01 19 85 07 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] cd 7b ca 17 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] c0 96 5d 03 ...
+  .. ..$ : raw [1:125, 1:2, 1:100] 10 48 32 1b ...
   .. ..- attr(*, &quot;dim&quot;)= int [1:2] 10 1</code></pre>
 </div>
 <div id="population-information" class="section level2">
@@ -806,7 +845,7 @@ str(founders)</code></pre>
 testID &lt;- test@id
 firstInd &lt;- test[order(testID)[1]]
 print(testID)</code></pre>
-<pre><code>[1] &quot;66&quot; &quot;96&quot; &quot;41&quot;</code></pre>
+<pre><code>[1] &quot;75&quot; &quot;8&quot;  &quot;30&quot;</code></pre>
 <pre class="r"><code>print(firstInd)</code></pre>
 <pre><code>An object of class &quot;Pop&quot; 
 Ploidy: 2 
@@ -815,7 +854,7 @@ Chromosomes: 10
 Loci: 10000 
 Traits: 1 </code></pre>
 <pre class="r"><code>print(firstInd@id)</code></pre>
-<pre><code>[1] &quot;41&quot;</code></pre>
+<pre><code>[1] &quot;30&quot;</code></pre>
 </div>
 <div id="outbreak-of-variation" class="section level2">
 <h2>Outbreak of variation</h2>
@@ -838,7 +877,7 @@ cat(&quot;Expected fraction heterozygous&quot;, 1 / 2^nGenSelf, &quot;\n&quot;,
     &quot;Observed fraction heterozygous&quot;, fracHet, &quot;+/-&quot;, 
     round(2*sqrt(fracHet*(1-fracHet)/(nFounders*nChr*nQTL)), 3), &quot;\n&quot;)</code></pre>
 <pre><code>Expected fraction heterozygous 0.0625 
- Observed fraction heterozygous 0.017 +/- 0.003 </code></pre>
+ Observed fraction heterozygous 0.0162 +/- 0.003 </code></pre>
 <blockquote>
 <p>What was wrong with my reasoning about the Expected fraction heterozygous?</p>
 </blockquote>
@@ -863,15 +902,89 @@ f1_extreme &lt;- makeCross(extremeInd, crossPlan)</code></pre>
 <pre class="r"><code>f2_average &lt;- self(f1_average, nProgeny=100)
 f2_average &lt;- setPheno(f2_average, varE=1)
 cat(&quot;Genotypic variance of F2 between average pair&quot;, round(varG(f2_average), 3))</code></pre>
-<pre><code>Genotypic variance of F2 between average pair 0.686</code></pre>
+<pre><code>Genotypic variance of F2 between average pair 0.436</code></pre>
 <pre class="r"><code>hist(pheno(f2_average), main=&quot;Histogram of Average-Pair F2 Phenotypes&quot;)</code></pre>
 <p><img src="figure/Lab1_ProgrammingAlphaSimR.Rmd/Make%20F2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Make-F2-1">
+Past versions of “Make F2-1.png”
+</button>
+</p>
+<div id="fig-no-spaces-Make-F2-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jeanlucj/Lab1_7170/blob/602d7eb7d861d46218767fb5b678276a51545c4c/docs/figure/Lab1_ProgrammingAlphaSimR.Rmd/Make F2-1.png" target="_blank">602d7eb</a>
+</td>
+<td>
+jeanlucj
+</td>
+<td>
+2020-01-20
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>f2_extreme &lt;- self(f1_extreme, nProgeny=100)
 f2_extreme &lt;- setPheno(f2_extreme, varE=1)
 cat(&quot;Genotypic variance of F2 between extreme pair&quot;, round(varG(f2_extreme), 3))</code></pre>
-<pre><code>Genotypic variance of F2 between extreme pair 0.798</code></pre>
+<pre><code>Genotypic variance of F2 between extreme pair 0.458</code></pre>
 <pre class="r"><code>hist(pheno(f2_extreme), main=&quot;Histogram of Extreme-Pair F2 Phenotypes&quot;)</code></pre>
 <p><img src="figure/Lab1_ProgrammingAlphaSimR.Rmd/Make%20F2-2.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Make-F2-2">
+Past versions of “Make F2-2.png”
+</button>
+</p>
+<div id="fig-no-spaces-Make-F2-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jeanlucj/Lab1_7170/blob/602d7eb7d861d46218767fb5b678276a51545c4c/docs/figure/Lab1_ProgrammingAlphaSimR.Rmd/Make F2-2.png" target="_blank">602d7eb</a>
+</td>
+<td>
+jeanlucj
+</td>
+<td>
+2020-01-20
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="observe-f1-phenotypic-variance" class="section level2">
 <h2>Observe F1 phenotypic variance</h2>
@@ -880,9 +993,46 @@ cat(&quot;Genotypic variance of F2 between extreme pair&quot;, round(varG(f2_ext
 f1_extremeMany &lt;- makeCross(extremeInd, crossPlan)
 f1_extremeMany &lt;- setPheno(f1_extremeMany, varE=1)
 cat(&quot;Genotypic variance of F1 between extreme pair&quot;, round(varG(f1_extremeMany), 3))</code></pre>
-<pre><code>Genotypic variance of F1 between extreme pair 0.021</code></pre>
+<pre><code>Genotypic variance of F1 between extreme pair 0.03</code></pre>
 <pre class="r"><code>hist(pheno(f1_extremeMany), main=&quot;Histogram of Extreme-Pair *F1* Phenotypes&quot;)</code></pre>
 <p><img src="figure/Lab1_ProgrammingAlphaSimR.Rmd/Make%20many%20hybrids-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Make-many-hybrids-1">
+Past versions of “Make many hybrids-1.png”
+</button>
+</p>
+<div id="fig-no-spaces-Make-many-hybrids-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jeanlucj/Lab1_7170/blob/602d7eb7d861d46218767fb5b678276a51545c4c/docs/figure/Lab1_ProgrammingAlphaSimR.Rmd/Make many hybrids-1.png" target="_blank">602d7eb</a>
+</td>
+<td>
+jeanlucj
+</td>
+<td>
+2020-01-20
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <blockquote>
 <p>What conditions will tend to make the outbreak of variation under the “average” scenario similar to the “extreme” scenario?</p>
 </blockquote>
