@@ -1,5 +1,5 @@
 ## Reproducible scripting, AlphaSimR, Homeworks  
-Mon Jan 20 11:10:55 2020  
+Mon Jan 20 11:17:02 2020  
   
 The random seed is 45678  
 The number of founders for the simulation is 100  
