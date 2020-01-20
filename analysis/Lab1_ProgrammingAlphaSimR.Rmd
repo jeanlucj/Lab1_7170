@@ -64,7 +64,6 @@ There [is more](https://cran.r-project.org/web/packages/workflowr/vignettes/wflo
 4. Homework  
   i) Labs, including this one, will be coupled with homework. One possibility for homework will be to do it in a `workflowr`-created directory, and hand in that zipped directory, or, if you go further and create a webpage out of it, just send in the URL... If all is well, this lab has a webpage here:  
 [Lab1 GitHub webpage](https://jeanlucj.github.io/Lab1_7170/Lab1_ProgrammingAlphaSimR.html)  
-I am noting, however, that on github.io, it is not rendering the within-directory-linked figures.  
 
 ## Document explanation
 There are three components to this document:
