@@ -1,7 +1,7 @@
-name: "Lab1_ProgrammingAlphaSimR"
+name: Lab1
 output_dir: ../docs
 navbar:
-  title: "Lab1_ProgrammingAlphaSimR"
+  title: Lab1
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,12 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  - text: Lab1
+    href: Lab1_ProgrammingAlphaSimR.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/jeanlucj/Lab1_7170
 output:
   workflowr::wflow_html:
     toc: yes
